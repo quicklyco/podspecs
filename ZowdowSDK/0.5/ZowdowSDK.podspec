@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = "Zowdow iOS SDK"
   s.license          = { :type => 'Commercial', :file => "LICENSE.txt" }
   s.author           = { "Zowdow" => "support@zowdow.com" }  
-  s.source           = { :http => "https://www.dropbox.com/s/hw8ershzso9isww/zowdow-sdk-ios-0.5.zip?dl=0" }
+  s.source           = { :http => "http://zd-ios-prototype.s3.amazonaws.com/zowdow-sdk-ios-0.5.zip" }
   s.ios.deployment_target = '7.0'
   s.requires_arc = true
   s.homepage = 'http://www.zowdow.com/'
